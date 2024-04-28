@@ -1,9 +1,12 @@
 import React from 'react'
+import Testimonial from '../components/Testimonial'
+import Stats from '../components/Stats'
 
 const Home = () => {
   return (
     <div>
-      Home
+      <Stats />
+      <Testimonial /> 
     </div>
   )
 }
